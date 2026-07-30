@@ -1,9 +1,19 @@
 root {
 
-    --graphite: #353535ff;
+    --grafite: #353535ff;
     --stormy-teal: #3c6e71ff;
     --white: #ffffffff;
     --alabaster-grey: #d9d9d9ff;
     --yale-blue: #284b63ff;
     
+}
+body{
+    background: var(--grafite);
+    font-family: var(--texto);
+}
+header{
+    background-color: var(--grafite);
+    display: flex;
+    justify-content: space-around;
+    color: var(--stormy-teal)
 }
