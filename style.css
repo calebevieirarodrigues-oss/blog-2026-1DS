@@ -34,3 +34,12 @@ color: var(--branco);
 text-transform: uppercase;
 font-size: 14px;
 }
+
+.menu a{
+   text-decoration: nome;
+   color: var(--cinza-verde);
+   transition: 1s;
+}
+.img-capa{
+    widht: 100%;
+}
